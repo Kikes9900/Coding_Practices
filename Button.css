@@ -1,0 +1,28 @@
+.white {
+    border: 1px solid lightgreen;
+    border-radius: 25px;
+    color: lightgreen;
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    font-weight: bolder;
+}
+.round {
+    border-radius: 180%;
+    background-color: lightgreen;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border: lightgreen;
+    font-size: 30px;
+    margin: 25px;
+}
+.blue {
+    border-color: black;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: solid 3px black;
+    box-shadow: 4px 8px black;
+}
