@@ -1,0 +1,40 @@
+.gray {
+    width: 90%;
+    background-color: silver;
+    height: 700px;
+    margin: 0px auto;
+    overflow: auto;
+}
+.green {
+    width: 90%;
+    height: 150px;
+    background-color: green;
+    margin: 20px 50px 25px 50px;
+}
+.blue {
+    width: 28%;
+    height: 60%;
+    background-color: blue;
+    margin: 0 18px 0 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.red {
+    width: 60%;
+    height: 70%;
+    background-color: red;
+    display: inline-block;
+}
+.yellow {
+    width: 28%;
+    height: 200px;
+    background-color: yellow;
+    margin: 15px 2px 15px 15px;
+    display: inline-block;
+}
+.purple {
+    width: 90%;
+    height: 150px;
+    background-color: purple;
+    margin: 20px 15px 25px 15px;
+}
