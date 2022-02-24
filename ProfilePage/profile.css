@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 12%;
+}
+h1 {
+    margin: 40px 0 0 150px;
+    font-size: 40px;
+}
+ul {
+    display: flex;
+    margin: 60px 350px 0 0;
+    column-gap: 30px;
+    font-size: larger;
+    list-style: none;
+}
+.navA {
+    color: white;
+    text-decoration: none;
+}
+.on {
+    color: rgb(209, 255, 251);
+    text-decoration: none;
+}
+button {
+    height: 4%;
+    width: 10%;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+    background-color: rgb(11, 119, 190);
+    color: rgb(236, 232, 232);
+    font-weight: bolder;
+}
+main {
+    display: flex;
+}
+.firstCont {
+    width: 70%;
+    height: 900px;
+    background-color: white;
+}
+.blue {
+    background-color: rgb(22, 22, 143);
+    height: 15%;
+    width: 60%;
+    margin: 50px 0 0 100px;
+    border: 2px solid rgb(22, 22, 143);
+}
+.content {
+    background-color: white;
+    width: 60%;
+    height: 400px;
+    margin: 0 0 0 100px;
+    border: 2px solid gray;
+}
+.mainP {
+    width: 150px;
+    border-radius: 180px;
+    position: absolute;
+    top: 210px;
+    left: 150px;
+}
+.profileP {
+    margin: 80px 0 0 80px;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+}
+.mapI {
+    height: 20px;
+    margin: 5px 0 0 80px;
+    display: inline-block;
+}
+h4 {
+    display: inline-block;
+}
+.profileBio {
+    margin: 10px 0 0 80px;
+}
+.sideCont {
+    width: 50%;
+    height: 900px;
+    background-color: white;
+}
+.imgGear {
+    height: 15px;
+    margin: 10px 0 0 80px;
+}
+.Edu {
+    width: 60%;
+    height: 200px;
+    background-color: white;
+    margin: 50px 0 0 100px;
+    border: 2px solid gray;
+}
+.eduH {
+    color: white;
+    background-color: black;
+    padding: 20px 0 0 60px;
+    height: 40px;
+    font-weight: bolder;
+}
+.eduH2 {
+    margin: 20px 0 0 50px;
+}
+.eduB {
+    margin: 10px 0 0 50px;
+}
+.connH {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0 0 50px;
+    width: 80%;
+    min-width: 540px;
+    height: 50px;
+    padding: 15px 0 0 0;
+    font-size: large;
+    border: solid 2px black;
+}
+.sideI {
+    height: 50px;
+    border-radius: 180px;
+    display: inline-block;
+    margin: 0 20px 15px 0;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.sideP {
+    display: inline-block;
+    font-size: x-large;
+    padding-right: 48%;
+    margin: 30px 0 0 15px;
+    vertical-align: top;
+}
+.sidePk {
+    display: inline-block;
+    font-size: x-large;
+    padding-right: 50%;
+    margin: 30px 0 0 15px;
+    vertical-align: top;
+}
+.iconS {
+    height: 50px;
+    position: relative;
+}
+.ContO {
+    background-color: white;
+    width: 80%;
+    min-width: 540px;
+    margin: 0 0 0 50px;
+    height: 200px;
+    border: 2px solid gray;
+
+}
+.extraH {
+    height: 380px;
+    background-color: white;
+    width: 80%;
+    min-width: 540px;
+    margin: 0 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    border: solid 2px gray;
+}
+.viewB {
+    background-color: white;
+    margin: 40px 0 0 0;
+    border: solid 2px gray;
+    padding: 20px;
+    font-size: larger;
+}
+
+.circle {
+    border-radius: 180px;
+    padding: 8px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
