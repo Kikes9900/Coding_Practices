@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 300px;
+    width: 700px;
+    margin: 150px 300px 150px 300px;
+    border: 2px solid gray;
+}
+.blue {
+    width: 100%;
+    height: 90px;
+    background-color: aqua;
+    border: 2px solid aqua;
+    position: relative;
+    right: 2px;
+    bottom: 2px;
+}
+.profile {
+    height: 90px;
+    width: 70px;
+    position: absolute;
+    top: 200px;
+    left: 320px;
+}
+h2 {
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin: 50px 0 0 20px;
+}
+.map {
+    width: 20px;
+    height: 20px;
+    margin: 5px 0 0 20px;
+}
+.city {
+    position: absolute;
+    top: 320px;
+    left: 350px;
+    font-size: larger;
+}
+.bio {
+    margin-left: 20px;
+}
+.icon {
+    width: 20px;
+    margin: 20px 0 0 30px;
+}
+.link {
+    position: absolute;
+    top: 402px;
+    left: 355px;
+}
