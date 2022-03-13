@@ -1,0 +1,4 @@
+Name:Elias Flores
+ Summary: I am practicing my Git skills with this text.
+Name: Elias Flores
+Project Goal: Enhance my skills in Git.
