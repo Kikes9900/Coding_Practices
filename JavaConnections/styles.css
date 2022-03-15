@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body, main {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: antiquewhite;
+}
+nav {
+    background-color: dimgray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12%;
+    font-size: 25px;
+}
+.navLinks {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.navL {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+button {
+    background-color: aqua;
+    color: white;
+    border: solid 2px black;
+    box-shadow: 5px 3px black;
+    cursor: pointer;
+    height: 35px;
+    width: 90px;
+}
+main {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 30px;
+}
+.gridItem1 {
+    background-color: white;
+    border: solid 5px black;
+    grid-column: 2 / 4;
+    grid-row: 1 / span 3;
+    height: 490px;
+    margin-top: 50px;
+}
+.profileH {
+    background-color: aqua;
+    height: 90px;
+    margin-bottom: 110px;
+    display: block;
+    padding: 20px;
+}
+.profileP {
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+}
+.profileB {
+    padding: 20px;
+}
+.profileB h3, h1, span, p {
+    margin: 20px 0px;
+}
+.gridItem2 {
+    border: solid 5px black;
+    background-color: white;
+    grid-column: 4 / 5;
+    margin-top: 50px;
+    height: 300px;
+}
+.requestH {
+    background-color: black;
+    height: 80px;
+    color: white;
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+}
+.connectA {
+    padding: 20px;
+    background-color: gray;
+    border-radius: 90%;
+    line-height: 1px;
+    margin-right: 15px;
+}
+.friendI {
+    border-radius: 90%;
+    vertical-align: middle;
+}
+.gridItem3 {
+    background-color: white;
+    border: solid 5px black;
+    grid-column: 2 / 4;
+    grid-row: 4 / span 5;
+    height: 330px;
+}
+.item3I {
+    padding: 20px;
+}
+.gridItem4 {
+    background-color: white;
+    border: solid 5px black;
+    grid-column: 4 / 5;
+    grid-row: 3 / span 5;
+}
+.friendL {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item4 {
+    padding: 20px;
+    border-top: 5px solid black;
+    display: flex;
+}

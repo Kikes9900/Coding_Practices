@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Javascript function in a webpage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1>Profile</h1>
+        <ul class="navLinks">
+            <li><a class="navL" href="#">Home</a></li>
+            <li><a class="navL" href="#">My Profile</a></li>
+            <li><a class="navL" href="#">Find Connections</a></li>
+            <li><button>Sign Out</button></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="gridItem1">
+            <div class="profileH">
+                <img class="profileP" src="images/jane-m.jpg" alt="profile picture" height="190" width="190">
+            </div>
+            <div class="profileB">
+                <h1 id="nameC">Jane Doe</h1>
+                <h3><img src="icons/map-marker.png" alt="map icon" height="20" width="20"> Seattle</h3>
+                <p> Developer | Engineer | Problem Solver <br> Master of shadows and the Internet!</p>
+                <p onclick="changeN()"><a href="#"><img src="icons/gear.png" alt="setting icon" height="20" width="20">edit profile</a></p>
+            </div>
+        </div>
+        <div class="gridItem2">
+            <div class="requestH">
+                <p class="connectA" id="countConnect">2</p>
+                <p>Connection Requests</p>
+            </div>
+            <ul>
+                <li class="friendL" id="fList1">
+                    <span id="smithF"><img class="friendI" src="images/todd-s.jpg" alt="friend picture" height="50" width="50"> Smith</span>
+                    <span><img src="icons/accept-circle.png" alt="accepting icon" height="50" width="50" onclick="addF('#fList1')">
+                    <img src="icons/close-circle.png" alt="decline icon" height="50" width="50" onclick="decline('#fList1')"></span>
+                </li>
+                <li class="friendL" id="fList2">
+                    <p><img class="friendI" src="images/phil-s.jpg" alt="friend picture" height="50" width="50">Phil K</p>
+                    <span><img src="icons/accept-circle.png" alt="accepting icon" height="50" width="50" onclick="addF('#fList2')">
+                    <img src="icons/close-circle.png" alt="decline icon" height="50" width="50" onclick="decline('#fList2')"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="gridItem3">
+            <div class="requestH">
+                <p>Education</p>
+            </div>
+            <div class="item3I">
+                <h1>Coding Dojo - Full Stack Bootcamp</h1>
+                <p>Dec 2019 - Mar 2020</p>
+                <p>Triple black belt in Python, MERN, and C#...</p>
+            </div>
+        </div>
+        <div class="gridItem4">
+            <div class="requestH">
+                <p class="connectA" id="myCount">418+</p>
+                <p>Your Connections</p>
+            </div>
+                <ul>
+                    <li class="friendL"><p><img class="friendI" src="images/adrien-s.jpg" alt="friend picture" height="50" width="50">Adrien D</p></li>
+                    <li class="friendL"><p><img class="friendI" src="images/anne-s.jpg" alt="friend picture" height="50" width="50">Anne J</p></li>
+                    <li class="friendL"><p><img class="friendI" src="images/alayne-s.jpg" alt="friend picture" height="50" width="50">Alayne T</p></li>
+                    <li class="friendL"><p><img class="friendI" src="images/arry-s.jpg" alt="friend picture" height="50" width="50">Arry Y</p></li>
+                </ul>
+                <a class="item4" href="#">View More</a>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.nav {
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;}
+.nav-links {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    list-style-type: none;
+    font-size: larger;
+}
+.nav-title {
+    margin: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    border: solid 3px black;
+    background-color: rgb(9, 156, 156);
+    margin-right: 15px;
+    height: 30px;
+    width: 90px;
+    color: white;
+}

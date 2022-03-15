@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="javascript video example">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VideoLab</title>
+        <link rel="stylesheet" href="video.css">
+        <script src="video.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="navAl">
+                <h1 class="navH">VideoLab</h1>
+                <input type="text" placeholder="Search">
+                <button>Login</button>
+            </div>
+        </nav>
+        <main>
+            <div class="MainV">
+                <video onmouseover="on(this)" onmouseout="off(this)" class="mainV" width="600" height="350" muted loop controls>
+                    <source src="content/JavaVideo.mp4" type="video/mp4">
+                </video>
+                <div class="VidI">
+                    <div>
+                        <h6 class="Htitle">Example Video Title</h6>
+                        <p class="vidin">1.3K views | June 18,2021</p>
+                        <div class="proP">
+                            <img class="profileP" src="content/user.png" alt="profile picture" width="50">
+                            <p class="profileN">Example User Name</p>
+                        </div>
+                    </div>
+                    <button>Subscribe</button>
+                <div>
+                    </div>
+            </div>
+            </div>
+            <div class="sideCont">
+                <p class="sideHead">Up Next</p>
+                <div class="Nvid">
+                    <img class="pic" src="content/video-placeholder.png" alt="video photo" width="150">
+                    <p>Not a Rick Roll</p>
+                </div>
+                <div class="Nvid">
+                    <img class="pic" src="content/video-placeholder.png" alt="video photo" width="150">
+                    <p>10 Facts About ET's Cat</p>
+                </div>
+                <div class="Nvid">
+                    <img class="pic" src="content/video-placeholder.png" alt="video photo" width="150">
+                    <p>5 Cosplays Tips</p>
+                </div>
+                <div class="Nvid">
+                    <img class="pic" src="content/video-placeholder.png" alt="video photo" width="150">
+                    <p>Boy Battles Dinobot in Thunderdome</p>
+                </div>
+
+            </div>
+        </main>
+    </body>
+</html>

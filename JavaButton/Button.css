@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+nav {
+    background-color: lightgray;
+    display: flex;
+    width: 64%;
+    margin: auto;
+    height: 10%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+.navInput {
+    width: 200px;
+    height: 30%;
+}
+.navButton {
+    color: white;
+    background-color: blue;
+    height: 30%;
+    width: 80px;
+    box-shadow: 5px 5px black;
+}
+.rowOne {
+    display: flex;
+    justify-content: center;
+}
+.boxO {
+    border: solid 5px black;
+    width: 40%;
+    min-width: 591px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    font-size: x-large;
+}
+.boxT {
+    padding: 10px;
+    border: solid 5px black;
+    width: 15%;
+    height: 190px;
+    min-height: 190px;
+    margin: 20px;
+}
+.boxOT {
+    border: solid 5px black;
+    width: 40%;
+    min-width: 591px;
+    margin: 20px;
+    padding: 20px;
+    font-size: x-large;
+    position: relative;
+    left: 18%;
+    height: 200px;
+}
+.boxP {
+    display: inline;
+    float: left;
+    margin-right: 100px;
+}
+.boxPT {
+    margin-right: 30px;
+    font-size: 28px;
+    text-align: center;
+}
+.boxButton {
+    color: black;
+    background-color: yellow;
+    height: 30px;
+    width: 80px;
+    box-shadow: 5px 5px black;
+}
+.hT {
+    font-size: 40px;
+    font-weight: 400;
+}
+span {
+    font-weight: bolder;
+}
+.tButton {
+    color: black;
+    background-color: darkseagreen;
+    height: 40px;
+    width: 90%;
+    margin: 10px 0 0 15px;
+    box-shadow: 5px 5px black;
+}
+.proP {
+    font-size: 30px;
+    overflow: hidden;
+}
