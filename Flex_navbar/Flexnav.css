@@ -1,0 +1,26 @@
+.nav {
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-style: italic;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    list-style-type: none;
+    font-size: larger;
+}
+.nav-title {
+    margin: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    border: solid 3px black;
+    background-color: aqua;
+    margin-right: 15px;
+}
