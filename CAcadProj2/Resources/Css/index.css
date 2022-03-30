@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-row-gap: 50px;
+    background-color: purple;
+    color: white;
+}
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-row: 1;
+    grid-column: 1/ span 3;
+}
+img {
+    height: 100px;
+    width: 100px;;
+    background-color: wheat;
+    margin: 10px;
+}
+ul {
+    display: flex;
+    column-gap: 120px;
+    font-size: 25px;
+    list-style-type: none;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    grid-row: 2 / span 3;
+    grid-column: 1 / span 3;
+}
+.comments {
+    border: solid 5px black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    width: 400px;
+    font-size: 30px;
+    margin: 0 50px;
+}
+.comBox {
+    border: solid 2px black;
+    padding: 15px;
+}
+.gallery {
+    border: solid 5px black;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    width: 400px;
+    align-content: space-around;
+}
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    grid-row: 5 / span 2;
+    grid-column: 1 / span 3;
+    font-size: 25px;
+}
+h4 {
+    border-bottom: solid 3px black;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+a:hover {
+    color: red;
+}
+span:hover {
+    color: red;
+}
+p span {
+    text-decoration: underline;
+    color: blueviolet;
+}
