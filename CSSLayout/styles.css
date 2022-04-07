@@ -1,0 +1,181 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    grid-gap: 15px;
+}
+header {
+    grid-column: 4 / span 2;
+    grid-row: 1;
+    color: black;
+}
+.head1 {
+    margin-top: 60px;
+}
+h6 {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+    margin: 15px;
+}
+.butt1, .butt2, .butt3 {
+    height: 60px;
+    width: 120px;
+    border: solid 3px black;
+    border-radius: 90px;
+    background-color: rgb(7, 247, 203);
+    color: red;
+    font-family: "Send Flowers", sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+.But1, .But2, .But3 {
+    height: 60px;
+    width: 120px;
+    border: solid 1px blue;
+    background-color: blue;
+    color: black;
+    font-family: 'Oxygen' sans-serif;
+    font-size: large;
+    cursor: pointer;
+}
+.butt2:hover {
+    background-color: rgb(4, 112, 112);
+}
+.butt3:active {
+    background-color: rgb(4, 112, 112);
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.But2:hover {
+    background-color: red;
+    color: white;
+}
+.But3:active {
+    background-color: red;
+    color: white;
+    transition: 0.2s;
+    transform: scale(0.98);
+}
+.Colors {
+    grid-column: 4 / span 4;
+    grid-row: 2 / span 2;
+    color: white;
+    background-color: rgb(122, 214, 46);
+}
+.Fonts {
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 3;
+    border: solid 5px black;
+    overflow: scroll;
+}
+.Text {
+    grid-column: 5 / span 2;
+    grid-row: 4 / span 3;
+    border: solid 5px black;
+}
+.Buttons {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;
+    border: solid 5px black;
+    overflow: scroll;
+}
+.ButtonsB {
+    display: flex;
+}
+.boxColors {
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxOne, .boxTwo, .boxThree, .boxFour, .boxFive, .boxSix {
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.boxOne {
+    background-color: limegreen;
+}
+.boxTwo {
+    background-color: rebeccapurple;
+}
+.boxThree {
+    background-color: tan;
+}
+.boxFour {
+    background-color: violet;
+}
+.boxFive {
+    background-color: orange;
+}
+.boxSix {
+    background-color: red;
+}
+.boxFont, .Texts {
+    display: flex;
+    flex-flow: column;
+}
+.Fbox, .Tbox, .But1, .But2, .But3, .butt1, .butt2, .butt3 {
+    margin: 15px;
+}
+.Grape {
+    font-family: "Grape Nuts";
+}
+.Pt1, .Pt2, .Pt3, .Pt4 {
+    font-family: 'PT Sans', sans-serif;
+}
+.Pt1, .Hind1, .Ox2 {
+    font-weight: 400;
+}
+.Hind2 {
+    font-weight: 500;
+}
+.Hind3 {
+    font-weight: 600;
+}
+.Pt2 {
+    font-weight: 400;
+    font-style: italic;
+}
+.Pt3, .Hind4, .Ox3 {
+    font-weight: 700;
+}
+.Pt4 {
+    font-weight: 700;
+    font-style: italic;
+}
+.Hind1, .Hind, .Hind2, .Hind3, .Hind4 {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.Hind, .Ox1 {
+    font-weight: 300;
+}
+.Ox1, .Ox2, .Ox3 {
+    font-family: 'Oxygen', sans-serif;
+}
+.Flower {
+    font-family: 'Send Flowers', cursive;
+    font-weight: 400;
+}
+.mainH {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Pt Sans", sans-serif;
+}
+.mainH1 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+.mainP {
+    font-family: "Send Flowers", cursive;
+    font-weight: 300;
+    font-size: 16px;
+}
