@@ -1,0 +1,130 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica";
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: calc(0.9);
+    display: grid;
+    grid-template-columns: 300px 50px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px 150px 150px 100px 150px 150px 150px 180px 150px 150px 150px 150px 150px 130px;
+}
+header {
+    grid-row: 1 / span 5;
+    grid-column: 1 / span 6;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+ul {
+    display: flex;
+    column-gap: 30px;
+    list-style-type: none;
+}
+a {
+    color: seashell;
+}
+.Logo {
+    height: 50px;
+    margin-left: 10px;
+}
+.BackPic {
+    background-image: url(./Images/background.webp);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px seashell;
+    margin: 0 280px;
+    position: relative;
+    top: 80px;
+}
+.BackText {
+    width: 1200px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    line-height: 40px;
+}
+#Food {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    text-align: center;
+    grid-row: 7;
+    grid-column: 3 / span 4;
+}
+.FoodI {
+    line-height: 50px;
+}
+.foodImages {
+    display: flex;
+    flex-direction: column;
+}
+.foodOne {
+    display: flex;
+    justify-content: space-between;
+}
+.foodTwo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+}
+figure {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+figure img {
+    height: 200px;
+    width: 300px;
+}
+figcaption {
+    margin-top: 10px;
+}
+#Locations {
+    background-image: url(./Images/TeaCup.webp);
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-row: 11;
+    grid-column: 2 / span 5;
+}
+.locationBoxes {
+    display: flex;
+    justify-content: space-around;
+}
+.locationBoxes div {
+    width: 300px;
+    margin: 15px 40px;
+    background-color: black;
+    line-height: 60px;
+    padding: 10px;
+    opacity: 1;
+}
+.contact {
+    height: 200px;
+    line-height: 60px;
+    text-align: center;
+}
+#Info {
+    grid-row: 15;
+    grid-column: 1 / span 9;
+}
+.InfoP {
+    text-align: left;
+    margin-left: 20px;
+}
