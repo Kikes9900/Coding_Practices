@@ -1,0 +1,27 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    color: black;
+    background-color: lime;
+    font-family: 'Grape Nuts', cursive, sans-serif;
+    text-align: center;
+}
+header {
+    background-color: maroon;
+    font-family: monospace;
+    font-size: 30px;
+}
+table, th, td {
+    border: solid 5px maroon;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 900;
+}
+h6 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 15px;
+}
