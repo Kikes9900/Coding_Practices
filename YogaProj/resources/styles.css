@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Ms Madi', cursive;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(157, 1, 157);
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    height: 5rem;
+    margin-left: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+ul {
+    margin-right: 15px;
+}
+li {
+    display: inline;
+    padding-right: 15px;
+    font-size: 1.5rem;
+}
+
+header h1 {
+    background-image: url(./images/backround.webp);
+    background-size: cover;
+    background-position: center;
+    font-size: 3rem;
+    color: white;
+    padding: 15px;
+    position: relative;
+    top: 2.4rem;
+}
+#About {
+    background-color: darkgoldenrod;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+#About h3, #Schedule h3, #Events h3 {
+    font-size: 3.5rem;
+}
+#About p {
+    font-size: 2.5rem;
+}
+#Schedule {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+.sched {
+    display: flex;
+    align-items: center;
+}
+#Schedule img {
+    height: 18rem;
+}
+#Events {
+    text-align: center;
+    background-color: goldenrod;
+    padding: 15px;
+}
+table {
+    border: solid 5px black;
+    padding: 2px;
+    height: 15rem;
+    margin: auto;
+    font-size: 2rem;
+}
+tr, td {
+    border: 2px solid black;
+}
+footer {
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+@media only screen and (max-width: 850px) {
+    #About h3, #Schedule h3, #Events h3 {
+        font-size: 2rem;
+    }
+    #About p {
+        font-size: 1.5rem;
+    }
+    table {
+        border: solid 3px black;
+        padding: 2px;
+        font-size: .5rem;
+    }
+    .sched {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Schedule img {
+        height: 10rem;
+    }
+    footer {
+        font-size: 1rem;
+    }
+}
