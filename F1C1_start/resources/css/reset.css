@@ -1,0 +1,344 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: rgb(180, 177, 177);
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+header .mobile {
+  display: none
+}
+.deskBut {
+  display: none;
+}
+header {
+  width: 100%;
+}
+a {
+  color: black;
+  text-decoration: none;
+  margin-left: 30px;
+}
+header .content {
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+  align-items: center;
+}
+.desktop {
+  color: #4a4a4a;
+}
+ul {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  font-family: 'Roboto-Regular';
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+.icon {
+  height: 15px;
+  margin: 0 30px 0 10px;
+}
+.banner {
+  background-image: url("../images/banner-landingpage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 170px 0 170px 100px;
+}
+#sign-up-cta {
+  background-color: #9DC20A;
+  width: 600px;
+  text-align: center;
+  border: 1px solid #979797;
+  border-radius: 4px;
+}
+#sign-up-cta .content {
+  padding: 32px 80px 56px 80px;
+}
+.email {
+  width: 350px;
+}
+.email span {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: white;
+  font-family: 'Roboto-regular';
+}
+.button {
+  background-color: #4a4a4a;
+  border-radius: 4px;
+  width: 408px;
+  height: 64px;
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Roboto-medium';
+  line-height: 1.4;
+}
+.header {
+  margin: 32px 0 12px 0;
+  color: white;
+  font-size: 3.1rem;
+  line-height: 1.4;
+}
+.header h2 {
+  font-family: "damion", cursive;
+  font-size: 1.6rem;
+}
+.header h1 {
+  font-size: 3.1rem;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  line-height: 1.4;
+}
+#features-section {
+  display: flex;
+  justify-content: center;
+}
+#filters-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+images-container {
+  display: flex;
+  padding: 80px 1% 64px;
+}
+.feature {
+  width: 38rem;
+  background-color: white;
+  margin: 64px 38px 46px 0;
+  text-align: center;
+}
+.center .content {
+  margin-bottom: 147px;
+}
+.images-container {
+  display: flex;
+  padding: 80px 1% 64px 1%;
+}
+.image-container img {
+  display: block;
+  max-width: 100%;
+  padding: 32px 32px 46px 32px;
+}
+.content h2 {
+  color: #4a4a4a !important;
+  font-size: 2.6rem !important;
+  font-family: 'Roboto-Bold' !important;
+  line-height: 1.2;
+}
+.content h3 {
+  color: #4a4a4a !important;
+  font-size: 1rem !important;
+  font-family: 'Roboto-light' !important;
+  line-height: 1.2;
+  padding: 32px 32px 0 32px !important;
+}
+.center h2 {
+  color: white;
+  opacity: 100%;
+  font-size: 1rem;
+  font-family: 'Roboto-Bold';
+  margin-top: 64px;
+}
+.center h3 {
+  color: white;
+  font-size: 1rem;
+  font-family: 'Roboto-light';
+  line-height: 1.4;
+}
+#quotes-section {
+  text-align: center;
+}
+#quotes-section .center {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+.center span {
+  color: #4a4a4a;
+  font-size: 1.9rem;
+  font-family: 'Palatino-talic';
+  line-height: 1.1;
+}
+footer {
+  background-color: #9B9B9B;
+}
+.copyright {
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto-Regular';
+}
+footer .content {
+  margin-left: 32px;
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+  align-items: center;
+}
+
+@media only screen and (min-width: 413px) and (max-width: 912px) {
+  .deskBut {
+    display: block;
+    width: 100%;
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+  .email, .button {
+    display: none;
+  }
+  #sign-up-cta {
+    color: white;
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+  }
+  .feature {
+    width: 25rem;
+  }
+  .quote-citation {
+    height: 2rem;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block !important;
+    width: 100%;
+  }
+  .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+    border-radius: 4px;
+    width: 5rem;
+    height: 2rem;
+    margin: auto;
+  }
+  .mobile ul {
+    column-gap: 1px;
+    justify-content: space-around;
+  }
+  header .content {
+    height: 3rem;
+  }
+  .email, .buttonTwo {
+    display: none;
+  }
+  #sign-up-cta {
+    color: white !important;
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+  }
+  .banner {
+    padding: 0;
+    background-image: url("../images/banner-landingpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  #features-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .feature {
+    width: auto;
+    margin: 0;
+  }
+  .center h2 {
+    margin: 0;
+  }
+  .center .content {
+    margin: 0;
+  }
+  .image-container img {
+    padding: 0;
+  }
+  #filters-section .content {
+    color: white;
+    background-color: darkgray;
+    padding: 1rem;
+  }
+  .image-container {
+    padding: 0;
+  }
+  .center span {
+    font-size: 1rem;
+  }
+  #quotes-section .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  .quote-citation {
+    height: 2rem;
+    width: 6rem;
+    margin: auto;
+  }
+  .location {
+    font-size: .8rem;
+  }
+}
